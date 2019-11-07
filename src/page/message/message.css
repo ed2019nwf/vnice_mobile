@@ -1,0 +1,90 @@
+.messagewrap {
+    padding-top: 62px;
+    height: auto;
+    background: #f2f2f2;
+}
+
+.my-tab-ul li {
+    height: 1.2rem;
+    background: #fff;
+    padding: 0 0.45rem;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 0.24rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.my-tab-ul li .my-tab-time {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.my-tab-ul li .my-tab-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.my-tab-main {
+    background: #f2f2f2;
+    padding-bottom: 0.25rem;
+}
+
+.my-btn-group {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.8rem;
+}
+
+.my-btn {
+    width: 3rem;
+    height: 1rem;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0.42rem;
+    color: #fff;
+}
+
+.btn-primary {
+    background: #e6a23c;
+}
+
+.btn-warn {
+    background: #e43434;
+}
+
+.my-dialog {
+    padding: 1rem;
+    color: #000;
+    font-size: 0.36rem;
+    text-align: left;
+}
+
+.messagewrap .my-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.messagewrap .vux-tab {
+    height: 40px;
+}
+
+.messagewrap .vux-tab .vux-tab-item {
+    line-height: 40px;
+}
+
+.my-tab .vux-tab-container {
+    height: 44px;
+    top: 40px;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    position: fixed;
+    z-index: 8;
+}

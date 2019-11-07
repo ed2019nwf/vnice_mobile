@@ -1,0 +1,38 @@
+.wrap {
+    height: 100%;
+    background: #f2f2f2;
+}
+
+.bankbox ul li {
+    background: #fff;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-top: 0.2rem;
+}
+
+.bankok {
+    padding: 0 0.2rem;
+    margin-top: 0.2rem;
+}
+
+.bankok span {
+    height: 1.3rem;
+    background: #e6a23c;
+    font-size: 0.42rem;
+    color: #fff;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bankslide {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bankslide span {
+    color: #333;
+}

@@ -1,0 +1,269 @@
+.logobox {
+    width: 100%;
+    height: 1.4rem;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.logobox img {
+    width: 2.32rem;
+    height: 1.32rem;
+}
+
+.notice {
+    background: #393a3f;
+    padding-left: 30px;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+}
+
+.notice img {
+    position: absolute;
+    top: 50%;
+    left: 0.15rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    transform: translateY(-50%);
+}
+
+.notice ul {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+}
+
+.notice ul li {
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.index-nav {
+    padding: 0.2rem;
+    background: #414248;
+}
+
+.index-nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.index-nav ul li {
+    text-align: center;
+}
+
+.index-nav ul li a {
+    font-size: 0.38rem;
+    color: #fff;
+}
+
+.index-nav ul li i {
+    display: block;
+    width: 0.86rem;
+    height: 0.86rem;
+}
+
+.index-gametype {
+    background: #2c2c34;
+    padding: 0.3rem;
+}
+
+.gametype-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.index-gametype .other {
+    width: 4.98rem;
+    height: 2.94rem;
+    margin-bottom: 0.25rem;
+    position: relative;
+}
+
+.my-swiper img {
+    height: 100%;
+}
+
+.gamePlat {
+    height: 100%;
+    background: @color;
+}
+
+.game-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+
+.game-img li {
+    width: 23%;
+    height: 2rem;
+    position: relative;
+    padding: 1%;
+}
+
+.game-img li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.game-img li img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.my-tab .vux-tab {
+    background: rgba(255, 255, 255, .1)
+}
+
+.my-tab .vux-tab .vux-tab-item {
+    color: #333;
+    position: relative;
+}
+
+.game-img li span {
+    position: absolute;
+    bottom: 0.4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.18rem;
+    color: #fff;
+    display: block;
+    width: 80%;
+    text-align: center;
+}
+
+.gamewrap .vux-swiper {
+    height: auto;
+}
+
+.my-tab .vux-tab-container {
+    height: 60px;
+}
+
+.my-tab .vux-tab .vux-tab-item h2 {
+    font-weight: normal;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 99;
+    color: #000000;
+    line-height: 30px;
+}
+
+.my-tab .vux-tab .vux-tab-item.on h2 {
+    color: @home-tab-color;
+    font-size: 0.18rem;
+}
+
+.my-tab .vux-tab .vux-tab-item.live {
+    width: 0.86rem;
+    height: 0.86rem;
+    background: #fff url(./img/shixun2.png) top center no-repeat;
+    background-size: 40%;
+    padding-top: 1.6rem;
+}
+
+.my-tab .vux-tab .vux-tab-item.live.on {
+    background:#fff url(./img/shixun1.png) top center no-repeat;
+    background-size: 40%;
+}
+
+.my-tab .vux-tab .vux-tab-item.egame {
+    width: 0.86rem;
+    height: 0.86rem;
+    background: #fff url(./img/dianzi1.png) top center no-repeat;
+    background-size: 40%;
+    padding-top: 1.6rem;
+}
+
+.my-tab .vux-tab .vux-tab-item.egame.on {
+    background:#fff url(./img/dianzi2.png) top center no-repeat;
+    background-size: 40%;
+}
+
+.my-tab .vux-tab {
+    height: 60px;
+}
+
+.my-tab .vux-tab .vux-tab-item.esport {
+    background: #fff url(./img/diangjing1.png) top center no-repeat;
+    width: 0.86rem;
+    height: 0.86rem;
+    background-size: 40%;
+    padding-top: 1.6rem;
+}
+
+.my-tab .vux-tab .vux-tab-item.esport.on {
+    background:#fff url(./img/dianjing2.png) top center no-repeat;
+    background-size: 40%;
+}
+
+.my-tab .vux-tab .vux-tab-item.sport {
+    background: #fff url(./img/tiyu1.png) top center no-repeat;
+    background-size: 40%;
+    width: 0.86rem;
+    height: 0.86rem;
+    padding-top: 1.6rem;
+}
+
+.my-tab .vux-tab .vux-tab-item.sport.on {
+    background:#fff url(./img/tiyu2.png) top center no-repeat;
+    background-size: 40%;
+}
+
+.my-tab .vux-tab .vux-tab-item.lottery {
+    background: #fff url(./img/caipiao1.png) top center no-repeat;
+    background-size: 40%;
+    width: 0.86rem;
+    height: 0.86rem;
+    padding-top: 1.6rem;
+}
+
+.my-tab .vux-tab .vux-tab-item.lottery.on {
+    background:#fff url(./img/caipiao2.png) top center no-repeat;
+    background-size: 40%;
+}
+
+.vux-tab-container {
+    height: 55px;
+}
+
+.my-tab .vux-tab .vux-tab-item {
+    margin-right: 10px;
+    border-radius: 6px;
+}
+
+.gamePlat .vux-tab-wrap{
+    padding-top:2.3rem;
+  }
+  .gamePlat .vux-tab-container{
+    height:auto;
+  }
+  .gamePlat .vux-tab{
+    background-color: @color;
+    padding:10px;
+    height:auto;
+    margin-right:10px;
+  }
+  .gamePlat .my-tab .vux-tab .vux-tab-item{
+    background-color:#fff;
+  }
+  .gamePlat .vux-slider{
+    border-top:1px solid #eaeaea;
+    padding-top:3px;
+  }

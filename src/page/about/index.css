@@ -1,0 +1,93 @@
+.about {
+    height: 100%;
+}
+
+.about-logo {
+    margin: 0.75rem auto;
+    width: 50%;
+    height: 1.62rem;
+}
+
+.about-p {
+    padding: 0 12%;
+    font-size: .2rem;
+    color: #666;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.about-item {
+    width: 8.2rem;
+    margin: 0.3rem auto;
+    display: flex;
+}
+
+.about-left {
+    width: 1.4rem;
+    padding-left: .6rem;
+    line-height: 0.84rem;
+    position: relative;
+    color: #343434;
+    font-size: .4rem;
+}
+
+.about-left::before {
+    content: "";
+    position: absolute;
+    width: .58rem;
+    height: .58rem;
+    background: red;
+    left: 0;
+    top: 0.13rem;
+}
+
+.about-left.email::before {
+    background: url(./img/email@2x.png) no-repeat left top;
+    background-size: .58rem;
+}
+
+.about-left.qq::before {
+    background: url(./img/QQ@2x.png) no-repeat left top;
+    background-size: .58rem;
+}
+
+.about-left.wechat::before {
+    background: url(./img/wywm_wx.png) no-repeat left top;
+    background-size: .58rem;
+}
+
+.about-item p {
+    font-size: .4rem;
+    width: 4rem;
+    line-height: 0.84rem;
+    border: 1px solid #dcdcdc;
+    padding: 0 .3rem;
+    border-radius: 5px;
+    color: #b4b2b2;
+}
+
+.about-item a {
+    width: 1.2rem;
+    line-height: 0.84rem;
+    border: 1px solid #e6a23c;
+    border-radius: 5px;
+    color: #e6a23c;
+    font-size: .42rem;
+    text-align: center;
+    margin-left: .2rem;
+}
+
+.about-left.kf::before {
+    background: url(./img/kefu@2x.png) no-repeat left top;
+    background-size: .58rem;
+}
+
+.about-item.kefu a {
+    margin-left: 0;
+    flex: 1;
+    border: 0;
+    color: #ffffff;
+    font-size: .4rem;
+    background: url(./img/gywm_btn@2x.png) no-repeat left top;
+    background-size: 100%;
+}

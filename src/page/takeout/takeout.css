@@ -1,0 +1,164 @@
+.wrap {
+    height: 100%;
+    background: #f0f0f0;
+}
+
+.takebox {
+    padding: 0.4rem;
+}
+
+.takeout-one {
+    padding: 0.2rem;
+}
+
+.takeout-one-box {
+    height: 1.5rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.25rem;
+    border-radius: 6px;
+}
+
+.takeout-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.takeout-one-icon {
+    width: 0.86rem;
+    height: 0.86rem;
+    background: url(./img/zhongxinqianbao.png) center no-repeat;
+    background-size: 100%;
+    margin-right: 0.2rem;
+}
+
+.takeout-one-text b {
+    font-weight: normal;
+    color: #e6a23c;
+}
+
+.takeout-addbank {
+    padding: 0 0.2rem;
+    height: 0.84rem;
+    line-height: 0.84rem;
+    background: #d0b565;
+    border-radius: 6px;
+    font-size: 0.38rem;
+    text-align: center;
+}
+
+.takeout-addbank a {
+    color: #fff;
+}
+
+.takeout-refurbish {
+    padding: 0 0.2rem;
+    height: 0.84rem;
+    line-height: 0.84rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 0.38rem;
+    color: #333;
+    text-align: center;
+}
+
+.takeout-two {
+    background: #fff;
+    padding: 0.2rem 0;
+    margin-bottom: 0.2rem;
+}
+
+.takeout-two ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.takeout-two ul li {
+    width: 25%;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding: 0.2rem 0;
+}
+
+.takeout-two ul li label {
+    display: block;
+}
+
+.takeout-two ul li span {
+    color: #e6a23c;
+}
+
+.pay-allbank-icon {
+    padding: 0.43rem;
+    background: url(./img/yhk.png) center no-repeat;
+    background-size: 100%;
+    margin-right: 0.2rem;
+}
+
+.pay-hand-two {
+    background: #fff;
+}
+
+.takelist {
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: #d4d2d2 0 0 10px 1px;
+    background: #fff;
+    font-size: 0.32rem;
+    color: #333;
+    margin-bottom: 0.4rem;
+}
+
+.takelist label {
+    display: block;
+    font-size: 12px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pay-base-item {
+    font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.1rem;
+}
+
+.pay-hand-money {
+    font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weui-cell:before {
+    border: none;
+}
+
+.pay-hand-three {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.4rem;
+}
+
+.takelist .weui-cell {
+    padding: 0;
+}
+
+.nocard {
+    padding: 6px 0;
+    text-align: center;
+    margin: 0.4rem 0;
+}
+
+.nocard img {
+    display: inline-block;
+    width: 60%;
+}
